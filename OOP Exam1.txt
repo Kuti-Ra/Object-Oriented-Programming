@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exam1 {
+
+ public static void main(String[]args) {
+  
+  Scanner input =new Scanner (System.in);
+  
+  
+   System.out.println("********************************************");
+  System.out.print("Enter the first number: ");
+ int num1 =input.nextInt();
+   System.out.print("Enter the second number: ");
+ int num2 =input.nextInt();
+   System.out.println("********************************************");
+ int add = num1+num2;
+ int subtract = num1-num2;
+ int multiply = num1*num2;
+ int divide = num1/num2;
+
+   System.out.println(num1+" + "+num2+" is: "+add);
+    System.out.println(num1+" - "+num2+" is: "+subtract);
+    System.out.println(num1+" times "+num2+" is: "+multiply);
+    System.out.println(num1+" divided by "+num2+" is: "+divide);
+   }
+  }
