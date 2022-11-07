@@ -1,0 +1,41 @@
+// In class assignment: Polymorphism
+
+class Polygon {
+
+    public void render() {
+
+        System.out.println("");
+
+    }
+
+}
+
+ 
+
+class Square extends Polygon {
+
+    public void render() {
+
+        System.out.println("This is a square.");
+
+    }
+
+}
+
+ 
+
+class Main {
+
+    public static void main(String[] args) {
+
+        Polygon thisPolygon = new Polygon(); //Creates new Polygon object
+
+        Square S1 = new Square(); //Creates new Square object
+
+        thisPolygon.render();
+
+        S1.render();
+
+    }
+
+}
