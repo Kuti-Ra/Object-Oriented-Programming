@@ -1,0 +1,30 @@
+public class Main {
+    public static void main(String[] args) {
+        class Calculation
+{
+    int div(int n)
+    {
+        int result;
+
+       if(n==1)
+         return 1;
+
+       result = n/div(n-1);
+       System.out.println ("result is "+result+" n is "+n);
+       return result;
+       
+    }
+    
+    
+}
+
+public class Main
+{
+     public static void main(String args[])
+     {
+       Calculation obj_one = new Calculation();
+
+       int a = obj_one.div(10);
+       System.out.println(a);
+     }
+}
